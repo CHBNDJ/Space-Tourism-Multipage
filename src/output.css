@@ -1522,6 +1522,9 @@
   .bg-\[url\(assets\/technology\/background-technology-mobile\.jpg\)\] {
     background-image: url(assets/technology/background-technology-mobile.jpg);
   }
+  .bg-\[url\(assets\/technology\/image-launch-vehicle-landscape\.jpg\)\] {
+    background-image: url(assets/technology/image-launch-vehicle-landscape.jpg);
+  }
   .bg-\[url\(destination\/background-destination-mobile\.jpg\)\] {
     background-image: url(destination/background-destination-mobile.jpg);
   }
@@ -3198,6 +3201,11 @@
   .lg\:bg-\[url\(assets\/technology\/background-technology-desktop\.jpg\)\] {
     @media (width >= 64rem) {
       background-image: url(assets/technology/background-technology-desktop.jpg);
+    }
+  }
+  .lg\:bg-\[url\(assets\/technology\/image-launch-vehicle-portrait\.jpg\)\] {
+    @media (width >= 64rem) {
+      background-image: url(assets/technology/image-launch-vehicle-portrait.jpg);
     }
   }
   .lg\:bg-\[url\(destination\/background-destination-desktop\.jpg\)\] {
