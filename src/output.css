@@ -1513,6 +1513,9 @@
   .bg-\[url\(\.\/assets\/destination\/background-destination-mobile\.jpg\)\] {
     background-image: url(./assets/destination/background-destination-mobile.jpg);
   }
+  .bg-\[url\(\.\/assets\/home\/background-home-mobile\.jpg\)\] {
+    background-image: url(./assets/home/background-home-mobile.jpg);
+  }
   .bg-\[url\(\.\/assets\/technology\/background-technology-mobile\.jpg\)\] {
     background-image: url(./assets/technology/background-technology-mobile.jpg);
   }
@@ -2902,6 +2905,11 @@
       background-image: url(./assets/destination/background-destination-tablet.jpg);
     }
   }
+  .md\:bg-\[url\(\.\/assets\/home\/background-home-tablet\.jpg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(./assets/home/background-home-tablet.jpg);
+    }
+  }
   .md\:bg-\[url\(\.\/assets\/technology\/background-technology-tablet\.jpg\)\] {
     @media (width >= 48rem) {
       background-image: url(./assets/technology/background-technology-tablet.jpg);
@@ -3218,6 +3226,11 @@
   .lg\:bg-\[url\(\.\/assets\/destination\/background-destination-desktop\.jpg\)\] {
     @media (width >= 64rem) {
       background-image: url(./assets/destination/background-destination-desktop.jpg);
+    }
+  }
+  .lg\:bg-\[url\(\.\/assets\/home\/background-home-desktop\.jpg\)\] {
+    @media (width >= 64rem) {
+      background-image: url(./assets/home/background-home-desktop.jpg);
     }
   }
   .lg\:bg-\[url\(\.\/assets\/technology\/background-technology-desktop\.jpg\)\] {
