@@ -122,3 +122,54 @@
     background-image: url("/assets/technology/background-technology-desktop.jpg");
   }
 }
+
+/* Destination */
+.bg-destination-mobile {
+  background-image: url("/assets/destination/background-destination-mobile.jpg");
+}
+
+@media (min-width: 768px) {
+  .bg-destination-tablet {
+    background-image: url("/assets/destination/background-destination-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-destination-desktop {
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
+  }
+}
+
+/* Crew */
+.bg-crew-mobile {
+  background-image: url("/assets/crew/background-crew-mobile.jpg");
+}
+
+@media (min-width: 768px) {
+  .bg-crew-tablet {
+    background-image: url("/assets/crew/background-crew-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-crew-desktop {
+    background-image: url("/assets/crew/background-crew-desktop.jpg");
+  }
+}
+
+/* Home */
+.bg-home-mobile {
+  background-image: url("/assets/home/background-home-mobile.jpg");
+}
+
+@media (min-width: 768px) {
+  .bg-home-tablet {
+    background-image: url("/assets/home/background-home-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-home-desktop {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+  }
+}
