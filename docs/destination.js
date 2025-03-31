@@ -1,5 +1,5 @@
 // Chargement du fichier JSON contenant les données des destinations
-fetch("/data.json")
+fetch("./data.json")
   .then((response) => response.json()) // Convertir la réponse en format JSON
   .then((data) => {
     // Sélectionner les éléments HTML qui seront mis à jour
