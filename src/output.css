@@ -1507,6 +1507,9 @@
   .bg-\[url\(\.\/\.\.\/assets\/technology\/image-launch-vehicle-landscape\.jpg\)\] {
     background-image: url(./../assets/technology/image-launch-vehicle-landscape.jpg);
   }
+  .bg-\[url\(\/assets\/destination\/background-destination-mobile\.jpg\)\] {
+    background-image: url(/assets/destination/background-destination-mobile.jpg);
+  }
   .bg-\[url\(assets\/crew\/background-crew-mobile\.jpg\)\] {
     background-image: url(assets/crew/background-crew-mobile.jpg);
   }
