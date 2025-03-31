@@ -4,7 +4,7 @@
     "tailwindcss": "^4.0.17"
   },
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./docs/output.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./docs/output.css"
   },
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.6.11"
