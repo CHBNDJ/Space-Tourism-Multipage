@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+.color-primary {
+  color: #0b0d17;
+}
+.bg-primary {
+  background-color: #0b0d17;
+}
+.color-secondary {
+  color: #d0d6f9;
+}
+.bg-secondary {
+  background-color: #d0d6f9;
+}
+
+.font-bellefair {
+  font-family: "Bellefair", serif;
+}
+
+.font-barlow {
+  font-family: "Barlow", sans-serif;
+}
+
+.font-barlow-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.backdrop {
+  background-color: rgba(17, 24, 39, 0.95);
+  backdrop-filter: blur(80px) !important;
+}
+
+.line-height-text {
+  line-height: 180%;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.leading-18 {
+  line-height: 72px;
+}
+
+.planet-button {
+  transition: all 0.3s ease;
+}
+
+.planet-button.selected::before {
+  width: 100%;
+  background-color: white;
+}
+
+.planet-button::before {
+  transition: width 0.3s ease-in-out;
+}
+
+.link.selected::before {
+  width: 100%;
+  background-color: white;
+}
+
+@media (max-width: 640px) {
+  .link.selected::before {
+    width: 3px;
+    height: 100%;
+  }
+}
+
+.link::before {
+  transition: width 0.3s ease-in-out;
+}
+
+.crew-button.selected {
+  opacity: 100%;
+}
+
+.technology-button.selected {
+  background-color: white;
+  color: #0b0d17;
+}
+
+/* Disparition progressive */
+.fade-out {
+  opacity: 0;
+  transform: translateY(5px);
+  transition:
+    opacity 0.6s ease-in-out,
+    transform 0.6s ease-in-out;
+}
+
+/* Apparition progressive */
+.fade-in {
+  opacity: 0;
+  transform: translateY(-5px);
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

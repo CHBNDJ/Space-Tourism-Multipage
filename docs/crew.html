@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/docs/output.css" rel="stylesheet" />
+    <script defer src="crew.js"></script>
+    <script defer src="header.js"></script>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+
+  <body
+    class="crew fade-in h-auto bg-[url(./../assets/crew/background-crew-mobile.jpg)] bg-cover bg-no-repeat md:bg-[url(./../assets/crew/background-crew-tablet.jpg)] lg:bg-[url(./../assets/crew/background-crew-desktop.jpg)]"
+  >
+    <div id="header-container"></div>
+
+    <main
+      class="flex h-auto w-full justify-center p-10 lg:px-0 lg:py-12 lg:pl-16"
+    >
+      <div class="flex w-full max-w-6xl flex-col gap-6">
+        <div
+          class="font-barlow-condensed flex flex-row items-center justify-center gap-6 text-base text-white sm:justify-start sm:text-xl lg:text-3xl"
+        >
+          <span class="font-bold tracking-[4.72px] opacity-25">02</span>
+          <h1 class="font-normal tracking-[4px]">MEET YOUR CREW</h1>
+        </div>
+
+        <div
+          id="crew-container"
+          class="flex max-h-screen w-full flex-col items-center justify-center gap-8 lg:flex-row lg:justify-center"
+        >
+          <div
+            class="flex min-h-[305px] w-full max-w-lg flex-col items-center justify-end gap-6 lg:min-h-[734px] lg:max-w-xl"
+          >
+            <div
+              class="flex min-h-[231px] flex-col justify-start gap-6 text-center lg:min-h-[631px] lg:justify-center lg:text-left"
+            >
+              <div class="flex flex-col gap-4 uppercase">
+                <h1
+                  id="crew-category"
+                  class="font-bellefair text-2xl font-normal text-white opacity-50 lg:text-3xl"
+                >
+                  COMMANDER
+                </h1>
+                <h2
+                  id="crew-member-name"
+                  class="font-bellefair text-4xl leading-[1.14] font-normal text-white lg:text-5xl"
+                >
+                  DOUGLAS HURLEY
+                </h2>
+              </div>
+              <p
+                id="crew-description"
+                class="color-secondary font-barlow line-height-text text-base font-normal lg:text-lg"
+              >
+                Douglas Gerald Hurley is an American engineer, former Marine
+                Corps pilot and former NASA astronaut. He launched into space
+                for the third time as commander of Crew Dragon Demo-2.
+              </p>
+            </div>
+            <div
+              class="flex h-[10px] w-full items-center justify-center lg:h-[63px] lg:justify-start"
+            >
+              <div class="crew-buttons flex flex-row items-center gap-10">
+                <button
+                  class="crew-button selected h-[10px] w-[10px] cursor-pointer rounded-full bg-white opacity-[17.44%] transition-opacity duration-500 hover:opacity-50 lg:h-[15px] lg:w-[15px]"
+                  data-crew="Douglas Hurley"
+                  aria-selected="true"
+                ></button>
+                <button
+                  class="crew-button h-[10px] w-[10px] cursor-pointer rounded-full bg-white opacity-[17.44%] transition-opacity duration-500 hover:opacity-50 lg:h-[15px] lg:w-[15px]"
+                  data-crew="Mark Shuttleworth"
+                  aria-selected="false"
+                ></button>
+                <button
+                  class="crew-button h-[10px] w-[10px] cursor-pointer rounded-full bg-white opacity-[17.44%] transition-opacity duration-500 hover:opacity-50 lg:h-[15px] lg:w-[15px]"
+                  data-crew="Victor Glover"
+                  aria-selected="false"
+                ></button>
+                <button
+                  class="crew-button h-[10px] w-[10px] cursor-pointer rounded-full bg-white opacity-[17.44%] transition-opacity duration-500 hover:opacity-50 lg:h-[15px] lg:w-[15px]"
+                  data-crew="Anousheh Ansari"
+                  aria-selected="false"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mx-auto flex w-full max-w-[539px] flex-col items-center justify-start overflow-hidden lg:flex-grow"
+          >
+            <img
+              id="crew-member-image"
+              src="./../assets/crew/image-douglas-hurley.webp"
+              alt="Member Crew Picture"
+              class="h-auto max-h-[340px] w-full max-w-[271px] object-contain md:max-h-[560px] md:max-w-[447px] lg:max-h-[676px] lg:max-w-[539px]"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

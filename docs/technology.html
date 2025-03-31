@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="/docs/output.css" rel="stylesheet" />
+    <script defer src="technology.js"></script>
+    <script defer src="header.js"></script>
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+
+  <body
+    class="fade-in h-auto bg-[url(./../assets/technology/background-technology-mobile.jpg)] bg-cover bg-no-repeat md:bg-[url(./../assets/technology/background-technology-tablet.jpg)] lg:bg-[url(./../assets/technology/background-technology-desktop.jpg)]"
+  >
+    <div id="header-container"></div>
+
+    <main
+      class="flex h-auto w-full justify-center p-10 lg:justify-end lg:px-0 lg:py-12 lg:pl-16"
+    >
+      <div class="flex w-full max-w-7xl flex-col gap-6">
+        <div
+          class="font-barlow-condensed flex flex-row items-center justify-center gap-6 text-base text-white sm:justify-start sm:text-xl lg:text-3xl"
+        >
+          <span class="font-bold tracking-[4.72px] opacity-25">03</span>
+          <h1 class="font-normal tracking-[4px]">SPACE LAUNCH 101</h1>
+        </div>
+
+        <div
+          id="technology-container"
+          class="flex max-h-screen w-full flex-col-reverse items-center justify-center gap-8 pt-16 lg:flex-row lg:justify-center"
+        >
+          <div
+            class="flex min-h-[347px] w-full max-w-3xl flex-col items-center justify-center gap-10 text-center lg:min-h-[304px] lg:max-w-2xl lg:flex-row lg:gap-16 lg:text-left"
+          >
+            <div
+              class="font-bellefair flex h-auto w-auto flex-row justify-center gap-4 text-lg font-normal text-white md:text-2xl lg:flex-col lg:items-center lg:justify-start lg:gap-8 lg:text-[32px]"
+            >
+              <button
+                class="technology-button selected flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full border border-white/25 hover:border-white md:h-[56px] md:w-[56px] lg:h-[80px] lg:w-[80px]"
+                aria-selected="true"
+                data-techno="Launch vehicle"
+              >
+                1
+              </button>
+              <button
+                class="technology-button flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full border border-white/25 hover:border-white md:h-[56px] md:w-[56px] lg:h-[80px] lg:w-[80px]"
+                aria-selected="false"
+                data-techno="Spaceport"
+              >
+                2
+              </button>
+              <button
+                class="technology-button flex h-[40px] w-[40px] cursor-pointer items-center justify-center rounded-full border border-white/25 hover:border-white md:h-[56px] md:w-[56px] lg:h-[80px] lg:w-[80px]"
+                aria-selected="false"
+                data-techno="Space capsule"
+              >
+                3
+              </button>
+            </div>
+
+            <div class="flex min-h-[251px] flex-col gap-6 lg:min-h-[301px]">
+              <div class="flex h-auto flex-col gap-4">
+                <h1
+                  class="font-bellefair h-auto text-lg font-normal text-white opacity-50 md:text-2xl lg:text-[32px] lg:opacity-[50.42%]"
+                >
+                  THE TERMINOLOGY…
+                </h1>
+                <h2
+                  id="technology-name"
+                  class="font-bellefair text-2xl leading-[1.14] font-normal text-white uppercase md:text-[40px] lg:text-[56px]"
+                >
+                  LAUNCH VEHICLE
+                </h2>
+              </div>
+              <p
+                id="technology-description"
+                class="color-secondary font-barlow line-height-text text-base font-normal lg:text-lg"
+              >
+                A launch vehicle or carrier rocket is a rocket-propelled vehicle
+                used to carry a payload from Earth's surface to space, usually
+                to Earth orbit or beyond. Our WEB-X carrier rocket is the most
+                powerful in operation. Standing 150 metres tall, it's quite an
+                awe-inspiring sight on the launch pad!
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex w-full max-w-[1024px] flex-col items-center justify-start md:min-w-[768px] lg:max-h-[600px] lg:min-w-[520px] lg:flex-grow"
+          >
+            <div
+              id="technology-image"
+              class="aspect-[16/9] w-screen items-start bg-[url(./../assets/technology/image-launch-vehicle-landscape.jpg)] bg-cover bg-center bg-no-repeat lg:aspect-[4/4] lg:w-full lg:bg-[url(./../assets/technology/image-launch-vehicle-portrait.jpg)]"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
