@@ -15,7 +15,7 @@ fetch("./data.json")
         crewCategory.textContent = crew.role;
         crewMemberName.textContent = crew.name;
         crewDescription.textContent = crew.bio;
-        crewImage.src = data.crew[0].images.webp;
+        crewImage.src = crew.images.webp;
       }
 
       crewButtons.forEach((button) => {
