@@ -1482,6 +1482,9 @@
   .bg-\[url\(\.\/\.\.\/assets\/home\/background-home-mobile\.jpg\)\] {
     background-image: url(./../assets/home/background-home-mobile.jpg);
   }
+  .bg-\[url\(\.\/assets\/home\/background-destination-mobile\.jpg\)\] {
+    background-image: url(./assets/home/background-destination-mobile.jpg);
+  }
   .bg-\[url\(\.\/assets\/home\/background-home-mobile\.jpg\)\] {
     background-image: url(./assets/home/background-home-mobile.jpg);
   }
@@ -2665,6 +2668,11 @@
       background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
     }
   }
+  .sm\:bg-\[url\(\.\/assets\/home\/background-destination-tablet\.jpg\)\] {
+    @media (width >= 40rem) {
+      background-image: url(./assets/home/background-destination-tablet.jpg);
+    }
+  }
   .sm\:p-0 {
     @media (width >= 40rem) {
       padding: calc(var(--spacing) * 0);
@@ -2822,6 +2830,11 @@
   .md\:bg-\[url\(\.\/\.\.\/assets\/home\/background-home-tablet\.jpg\)\] {
     @media (width >= 48rem) {
       background-image: url(./../assets/home/background-home-tablet.jpg);
+    }
+  }
+  .md\:bg-\[url\(\.\/assets\/home\/background-destination-desktop\.jpg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(./assets/home/background-destination-desktop.jpg);
     }
   }
   .md\:bg-\[url\(\.\/assets\/home\/background-home-tablet\.jpg\)\] {
@@ -3305,7 +3318,7 @@
 .bg-home-mobile {
   background-image: url("./assets/home/background-home-mobile.jpg");
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .bg-home-tablet {
     background-image: url("./assets/home/background-home-tablet.jpg");
   }
@@ -3318,16 +3331,14 @@
 .bg-destination-mobile {
   background-image: url("./assets/destination/background-destination-mobile.jpg");
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .bg-destination-tablet {
-    background-image: url("/assets/destination/background-destination-tablet.jpg");
-    background-size: 100% auto;
+    background-image: url("./assets/destination/background-destination-tablet.jpg");
   }
 }
 @media (min-width: 1024px) {
   .bg-destination-desktop {
-    background-image: url("/assets/destination/background-destination-desktop.jpg");
-    background-size: 100% auto;
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
   }
 }
 .bg-crew-mobile {

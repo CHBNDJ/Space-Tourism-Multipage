@@ -112,7 +112,7 @@
   background-image: url("./assets/home/background-home-mobile.jpg");
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .bg-home-tablet {
     background-image: url("./assets/home/background-home-tablet.jpg");
   }
@@ -129,17 +129,15 @@
   background-image: url("./assets/destination/background-destination-mobile.jpg");
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .bg-destination-tablet {
-    background-image: url("/assets/destination/background-destination-tablet.jpg");
-    background-size: 100% auto;
+    background-image: url("./assets/destination/background-destination-tablet.jpg");
   }
 }
 
 @media (min-width: 1024px) {
   .bg-destination-desktop {
-    background-image: url("/assets/destination/background-destination-desktop.jpg");
-    background-size: 100% auto;
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
   }
 }
 
