@@ -533,9 +533,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -685,10 +682,6 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-y-1 {
-    --tw-translate-y: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-y-1\/2 {
@@ -1432,9 +1425,6 @@
     --tw-border-style: solid;
     border-style: solid;
   }
-  .border-white {
-    border-color: var(--color-white);
-  }
   .border-white\/25 {
     border-color: color-mix(in oklab, var(--color-white) 25%, transparent);
   }
@@ -1452,9 +1442,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1747,10 +1734,6 @@
   }
   .text-\[80px\] {
     font-size: 80px;
-  }
-  .leading-18 {
-    --tw-leading: calc(var(--spacing) * 18);
-    line-height: calc(var(--spacing) * 18);
   }
   .leading-\[1\.14\] {
     --tw-leading: 1.14;
@@ -3338,11 +3321,13 @@
 @media (min-width: 768px) {
   .bg-destination-tablet {
     background-image: url("./assets/destination/background-destination-tablet.jpg");
+    background-size: 100% auto;
   }
 }
 @media (min-width: 1024px) {
   .bg-destination-desktop {
     background-image: url("./assets/destination/background-destination-desktop.jpg");
+    background-size: 100% auto;
   }
 }
 .bg-crew-mobile {
@@ -3351,11 +3336,13 @@
 @media (min-width: 768px) {
   .bg-crew-tablet {
     background-image: url("./assets/crew/background-crew-tablet.jpg");
+    background-size: 100% auto;
   }
 }
 @media (min-width: 1024px) {
   .bg-crew-desktop {
     background-image: url("./assets/crew/background-crew-desktop.jpg");
+    background-size: 100% auto;
   }
 }
 .bg-technology-mobile {
@@ -3364,11 +3351,13 @@
 @media (min-width: 768px) {
   .bg-technology-tablet {
     background-image: url("./assets/technology/background-technology-tablet.jpg");
+    background-size: 100% auto;
   }
 }
 @media (min-width: 1024px) {
   .bg-technology-desktop {
     background-image: url("./assets/technology/background-technology-desktop.jpg");
+    background-size: 100% auto;
   }
 }
 @property --tw-translate-x {
