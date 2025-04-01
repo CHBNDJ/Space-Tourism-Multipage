@@ -33,12 +33,13 @@ fetch("header.html")
 
     navLinks.forEach((link) => {
       const linkPage = link.getAttribute("href");
+
       if (linkPage === currentPage) {
-        link.parentElement.classList.add("selected");
-        link.parentElement.setAttribute("aria-selected", "true");
+        link.setAttribute("aria-current", "page"); // ✅ Correct
+        link.parentElement.classList.add("selected"); // Ajoute une classe CSS pour le styling
       } else {
+        link.removeAttribute("aria-current");
         link.parentElement.classList.remove("selected");
-        link.parentElement.setAttribute("aria-selected", "false");
       }
 
       link.addEventListener("click", () => {
