@@ -62,6 +62,12 @@ fetch("header.html")
         }, 600);
       });
     }
+
+    // Donner le focus directement au lien "Home"
+    const homeLink = document.querySelector('a[href="index.html"]'); // Sélectionne le lien vers "Home"
+    if (homeLink) {
+      homeLink.focus(); // Applique le focus sur ce lien
+    }
   })
   .catch((error) =>
     console.error("Erreur lors du chargement du header :", error),
