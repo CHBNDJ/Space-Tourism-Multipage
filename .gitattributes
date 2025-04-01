@@ -1,9 +1,14 @@
-# Forcer la détection des fichiers JS, HTML et CSS comme code source principal
+# Forcer la détection des fichiers JS, HTML et CSS comme langage principal
 *.js linguist-detectable=true
 *.html linguist-detectable=true
 *.css linguist-detectable=true
 
-# Ignorer les fichiers générés ou minifiés
+# Exclure les fichiers générés (minifiés, maps)
 *.min.js linguist-generated
 *.min.css linguist-generated
 *.map linguist-generated
+
+# Empêcher GitHub de considérer certains fichiers comme "vendored"
+*.js linguist-vendored=false
+*.html linguist-vendored=false
+*.css linguist-vendored=false
