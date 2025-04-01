@@ -3224,7 +3224,7 @@
   font-family: "Barlow Condensed", sans-serif;
 }
 .backdrop {
-  background-color: rgba(17, 24, 39, 0.95);
+  background-color: rgba(11, 13, 23, 0.15);
   backdrop-filter: blur(80px) !important;
 }
 .line-height-text {
