@@ -149,14 +149,12 @@
 @media (min-width: 768px) {
   .bg-crew-tablet {
     background-image: url("./assets/crew/background-crew-tablet.jpg");
-    background-size: 100% auto;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-crew-desktop {
     background-image: url("./assets/crew/background-crew-desktop.jpg");
-    background-size: 100% auto;
   }
 }
 
@@ -168,13 +166,11 @@
 @media (min-width: 768px) {
   .bg-technology-tablet {
     background-image: url("./assets/technology/background-technology-tablet.jpg");
-    background-size: 100% auto;
   }
 }
 
 @media (min-width: 1024px) {
   .bg-technology-desktop {
     background-image: url("./assets/technology/background-technology-desktop.jpg");
-    background-size: 100% auto;
   }
 }
