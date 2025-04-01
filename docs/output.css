@@ -3320,13 +3320,13 @@
 }
 @media (min-width: 768px) {
   .bg-destination-tablet {
-    background-image: url("./assets/destination/background-destination-tablet.jpg");
+    background-image: url("/assets/destination/background-destination-tablet.jpg");
     background-size: 100% auto;
   }
 }
 @media (min-width: 1024px) {
   .bg-destination-desktop {
-    background-image: url("./assets/destination/background-destination-desktop.jpg");
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
     background-size: 100% auto;
   }
 }
