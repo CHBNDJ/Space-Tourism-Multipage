@@ -383,6 +383,15 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .-mt-44 {
+    margin-top: calc(var(--spacing) * -44);
+  }
+  .-mt-48 {
+    margin-top: calc(var(--spacing) * -48);
+  }
+  .-mt-60 {
+    margin-top: calc(var(--spacing) * -60);
+  }
   .-mt-80 {
     margin-top: calc(var(--spacing) * -80);
   }
